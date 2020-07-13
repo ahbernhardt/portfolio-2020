@@ -1,68 +1,370 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+
+<!--[if lt IE 7 ]>
+<html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"><!--<![endif]-->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Anh Nguyen">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hello. My name is Anh Nguyen and I'm a software developer.">
-    <meta name="robots" content="index,follow">
-    <title>Anh Nguyen</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Anh Nguyen</title>
+
+    <meta name="title" content="Anh Nguyen's portfolio"/>
+    <meta name="author" content="Anh Nguyen"/>
+
+    <meta name="google-site-verification" content=""/>
+
+    <meta name="Copyright" content="Anh Nguyen"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!--    <link rel="shortcut icon" href="assets/images/favicon.ico" />-->
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../static/css/home.css"/>
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script src="../static/libs/gtag.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments)
+        };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-37912505-1');
+    </script>
+
+    <script src="../static/libs/respond.js"></script>
+    <!--[if lt IE 9]>
+    <script>
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+    </script>
+    <![endif]-->
 
 </head>
 
 <body>
-<div class="description">
-    <h1 class="my-name">Hello, I'm </h1>
-    <h1>Anh Nguyen.</h1>
-    <h2 >Looking for career opportunities in Software</h2>
-
-    <div class="section__title">Background</div>
-    <p class="short-bio">I have a bachelor's degree in Design at <a class="links text-with-bg" href="https://www.bemidjistate.edu/"  target="_blank"><strong>BSU</strong></a>.
-        I love computers and how they can handle almost everything. As a software engineer, I enjoy bridging the gap between engineering and design — combining my technical knowledge with my keen eye for design to create a beautiful product.
-        My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.
-        I love nature and food. Pursuing my Masters of Software Engineering at
-        <a href="https://stthomas.edu/"  target="_blank" class="links text-with-bg st-key"><strong>UST</strong></a>.
-    </p>
+<!-- Mobile Sidebar 3dots -->
+<div class="modal">
+    <div class="closeModal">X</div>
+    <nav class="mobile">
+        <ul class="nav">
+            <li class="navItem" data-section="skills">Skills</li>
+            <li class="navItem" data-section="work">Work</li>
+            <li class="navItem" data-section="contact">Contact</li>
+        </ul>
+    </nav>
 </div>
 
+<!-- main body -->
+<div class="wrapper">
+    <!-- header bar -->
+    <header class="header">
 
-<div class="work">
-    <div class="section__title">Project</div>
-  <!--  <p class="current-project">Currently working on Big Data related projects, developed inside the Apache <a
-            href="https://hadoop.apache.org/" target="_blank">Hadoop</a> ecosystem.<br>
-        Daily software development tasks require writing, running and testing of so-called "Jobs", with technologies
-        such as:</p>
-   -->
-    <ul>
-        <li>
-            <a href="https://github.com/anguyen0208/Finance-Calculator" target="_blank">Finance Calculator</a>: (simple GUI application) with JavaFX;
-        </li>
-        <li>
-            <a href="https://github.com/anguyen0208/Point-of-Sales" target="_blank">Point-of-Sales</a>: POS system GUI using java language. FXML layout designed by using javaFX scenebuilder, plug-in to intelliJ IDE.
-        </li>
-        <li>
-          <a href="https://github.com/anguyen0208/anguyen0208.github.io" target="_blank">Website</a>: Simple HTML/CSS and deploy through github.io
-        </li>
-    </ul>
-    <p class="current-project">
-        Recently, I've started working on a REST framework back-end related project too, using
-        Django and Python. I'm testing runserver with localhost.
-    </p>
+        <div class="inner">
+            <!-- Logo-->
+            <div class="logo">
+                <div class="nLogoWrapper">
+                    <span class="nLogo"></span>
+                </div>
+                <span class="home">Anh Nguyen</span>
+            </div>
+            <!-- Top Nav bar-->
+            <nav>
+                <ul class="nav">
+                    <li class="navItem" data-section="skills">Skills</li>
+                    <li class="navItem" data-section="work">Work</li>
+                </ul>
+            </nav>
+            <!-- right 3 dots -->
+            <div class="hamburger">
+                <span class="bun"></span>
+                <span class="bun"></span>
+                <span class="bun"></span>
+            </div>
+
+
+        </div>
+    </header>
+
+    <!-- top info section (dark background) -->
+    <section class="top">
+        <div class="center">
+
+            <div class="gravatarHeight">
+                <div class="gravatarWrapper">
+                    <img class="gravatar" src="../static/img/personal.jpg">
+                </div>
+            </div>
+            <h1 class="h1 my-name">Hello, I'm <a class="a"><strong>Anh Nguyen</strong></a></h1>
+            <!-- Full stack web developer with a passion for influencing users into  -->
+            <h3 class="h3">Bridging the gap between engineering and design — combining technical knowledge with keen eye
+                for design to create a beautiful product.
+                Currently pursuing my Masters of Software Engineering at <a href="https://stthomas.edu/" target="blank" class="a"><strong>UST</strong></a>
+                and actively looking for full-time opportunities.
+            </h3>
+        </div>
+    </section>
+
+    <!-- skill section -->
+    <section id="skills" class="skills">
+        <div class="center">
+            <!-- Skills Title-->
+            <div class="h2">Skills</div>
+            <div class="hr"></div>
+
+            <!-- UX Box -->
+            <div class="skillBox ux">
+                <svg class="skillSvg" viewBox="0 0 32 32">
+                    <g>
+                        <path d="M30.987,24.402c-0.937-1.461-4.085-2.37-7.198-3.668c-3.115-1.298-3.854-1.749-3.854-1.749l-0.029-2.988
+                        c0,0,1.166-0.897,1.529-3.709c0.729,0.211,1.496-1.089,1.537-1.774c0.041-0.66-0.1-2.491-0.991-2.307
+	                    c0.183-1.378,0.313-2.618,0.249-3.274C21.999,2.532,19.635,0,16.001,0c-3.635,0-5.999,2.532-6.229,4.933
+	                    c-0.066,0.656,0.066,1.896,0.246,3.274c-0.889-0.184-1.029,1.647-0.99,2.307c0.043,0.685,0.807,1.985,1.539,1.774
+	                    c0.36,2.812,1.529,3.709,1.529,3.709l-0.029,2.988c0,0-0.74,0.45-3.854,1.749c-3.115,1.298-6.263,2.207-7.199,3.668
+	                    C0.172,25.71,0.427,32,0.427,32h31.147C31.574,32,31.828,25.71,30.987,24.402z"></path>
+                    </g>
+                </svg>
+                <div class="sh1">User Experience</div>
+                <div class="hr orange"></div>
+                <div class="skill">Sketch</div>
+                <div class="skill">Adobe Suits: Ai, Ps, In</div>
+                <div class="skill">User Stories</div>
+                <div class="skill">Wire Framing</div>
+                <div class="skill">Interface Design</div>
+                <div class="skill">Content Management</div>
+                <div class="skill">Usability and User Research</div>
+            </div>
+
+            <!-- front-end Box -->
+            <div class="skillBox frontEnd">
+                <svg class="skillSvg" viewBox="0 0 32 32">
+                    <g>
+                        <path d="M32,25V1H0v24h12v4H4v2h24v-2h-8v-4H32z M2,23V3h28v20H2z"></path>
+                    </g>
+                </svg>
+                <div class="sh1">Front End</div>
+                <div class="hr orange"></div>
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React JS</div>
+                <div class="skill">Bootstrap</div>
+            </div>
+
+            <!-- back-end Box -->
+            <div class="skillBox backEnd">
+                <svg class="skillSvg" viewBox="0 0 32 32">
+                    <g>
+                        <path d="M30,2.582C27.273,1.043,22.029,0,16,0C9.973,0,4.729,1.043,2,2.582C0.73,3.297,0,4.121,0,5v22
+		c0,0.879,0.73,1.703,2,2.418C4.729,30.957,9.973,32,16,32c6.029,0,11.273-1.043,14-2.582c1.273-0.715,2-1.539,2-2.418V5
+		C32,4.121,31.273,3.297,30,2.582z M16,2c8.494,0,13.217,2.047,13.947,3C29.217,5.953,24.494,8,16,8C7.508,8,2.785,5.953,2.055,5
+		C2.785,4.047,7.508,2,16,2z M16,10c6.029,0,11.273-1.043,14-2.582V12h-0.053c-0.73,0.953-5.453,3-13.947,3
+		c-8.492,0-13.215-2.047-13.945-3H2V7.418C4.729,8.957,9.973,10,16,10z M30,27h-0.053c-0.73,0.953-5.453,3-13.947,3
+		c-8.492,0-13.215-2.047-13.945-3H2v-5.582C4.729,22.957,9.973,24,16,24c6.029,0,11.273-1.043,14-2.582V27z M30,19h-0.053
+		c-0.73,0.953-5.453,3-13.947,3c-8.492,0-13.215-2.047-13.945-3H2v-4.582C4.729,15.957,9.973,17,16,17
+		c6.029,0,11.273-1.043,14-2.582V19z"></path>
+                    </g>
+                </svg>
+                <div class="sh1">Back End</div>
+                <div class="hr orange"></div>
+                <!--                <div class="skill">Ruby on Rails</div>-->
+                <!--                <div class="skill">MVC Frameworks</div>-->
+                <!--                <div class="skill">API Architecture</div>-->
+                <!--                <div class="skill">Authentication</div>-->
+                <!--                <div class="skill">Content Management Systems</div>-->
+                <!--                <div class="skill">REST Endpoints</div>-->
+                <div class="skill">Java</div>
+                <div class="skill">Python</div>
+                <div class="skill">DevOps</div>
+                <div class="skill">AWS</div>
+                <div class="skill">Django</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- work section -->
+    <section id="work" class="work">
+        <div class="center">
+            <!-- Work Title-->
+            <div class="h2">Work</div>
+            <div class="hr dark"></div>
+
+            <!-- Project 1-->
+            <div class="workSection" id="finance">
+                <!-- Hidden *** -->
+                <div class="hamburger">
+                    <span class="bun"></span>
+                    <span class="bun"></span>
+                    <span class="bun"></span>
+                </div>
+                <!-- Hidden X -->
+                <div class="close">x</div>
+
+                <!-- Project info clicked 3dots -->
+                <div class="show-more">
+                    <!-- Project Title -->
+                    <div class="detail-header">Finance Calculator</div>
+                    <!-- Project Descriptions -->
+                    <div class="detail-body">
+                        <p>
+                            Individual project in intermediate class, I implemented calculate class to working application.
+                            I started working with the GUI using JavaFX plugin on IntelliJ IDE.
+                        </p>
+                        <!-- Project tools-->
+                        <div class="detail-body-inner">
+                            <ul class="list">
+                                <li>Java</li>
+                                <li>JavaFX</li>
+                            </ul>
+                            <!-- Project link-->
+                            <a href="https://github.com/anguyen0208/Finance-Calculator" target="_blank">Go to Finance Calculator site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Normal Project display on Page-->
+                <div class="workSectionInfo">
+                    <!-- Title -->
+                    <div class="workSectionHeader">Finance Calculator</div>
+
+                </div>
+                    <!-- Example -->
+                <div class="workSectionExample">
+                    <div class="macBookPro"></div>
+                    <div class="iPhone"></div>
+                </div>
+            </div>
+
+            <!-- Project 2-->
+            <div class="workSection" id="POS">
+                <!-- Hidden *** -->
+                <div class="hamburger">
+                    <span class="bun"></span>
+                    <span class="bun"></span>
+                    <span class="bun"></span>
+                </div>
+                <!-- Hidden X -->
+                <div class="close">x</div>
+                <!-- Project info clicked 3dots -->
+                <div class="show-more">
+                    <!-- Project Title -->
+                    <div class="detail-header">Point of Sales</div>
+                    <!-- Project Descriptions -->
+                    <div class="detail-body">
+                        <p>
+                            Group project in Java class, design POS system GUI using java language.
+                            FXML layout designed by using javaFX scenebuilder, plug-in to intelliJ IDE.
+                        </p>
+                        <!-- Project tools-->
+                        <div class="detail-body-inner">
+                            <ul class="list">
+                                <li>JAVA</li>
+                                <li>JavaFX</li>
+                                <li>FXML</li>
+                                <li>UML design</li>
+                            </ul>
+                            <!-- Project link-->
+                            <a href="https://github.com/anguyen0208/Point-of-Sales" target="_blank">Go to P.O.S site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Normal Project display on Page-->
+                <div class="workSectionInfo">
+                    <div class="workSectionHeader">Point of Sales</div>
+                </div>
+                <!-- Example Images-->
+                <div class="workSectionExample">
+                    <div class="macBookPro"></div>
+                    <div class="iPhone"></div>
+                </div>
+            </div>
+
+            <!-- Project 3-->
+            <div class="workSection" id="portfolio">
+                <!-- Hidden *** -->
+                <div class="hamburger">
+                    <span class="bun"></span>
+                    <span class="bun"></span>
+                    <span class="bun"></span>
+                </div>
+                <!-- Hidden X -->
+                <div class="close">x</div>
+                <!-- Project info clicked 3dots -->
+                <div class="show-more">
+                    <!-- Project Title -->
+                    <div class="detail-header">Portfolio</div>
+                    <!-- Project Descriptions -->
+                    <div class="detail-body">
+                        <p>
+                            Personal portfolio website
+                        </p>
+                        <!-- Project tools-->
+                        <div class="detail-body-inner">
+                            <ul class="list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JS</li>
+                                <li>Django</li>
+                                <li>Python</li>
+                            </ul>
+                            <!-- Project Link-->
+                            <a href="https://github.com/anguyen0208/anguyen0208.github.io" target="_blank">Download screen shots</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Normal Project display on Page-->
+                <div class="workSectionInfo">
+                    <div class="workSectionHeader">Portfolio</div>
+                </div>
+                <!-- Example Image-->
+                <div class="workSectionExample">
+                    <div class="macBookPro"></div>
+                    <div class="iPhone"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer footercontainer">
+
+        <div class="inner">
+            <!-- Logo-->
+            <div class="copyright">
+                <div class="nLogoWrapper"></div>
+                <span class="footer-copyright">©  Anh Nguyen 2020</span>
+                <span class="footer-div">
+                    <a >a.nguyen0208@gmail.com →</a>
+                    <a href="https://www.linkedin.com/in/anhnguyen0208/" target="_blank">LinkedIn → </a>
+                    <a href="https://www.github.com/anguyen0208" target="_blank">GitHub → </a>
+                    <a href="http://www.instagram.com/ah_nguyen0208" target="_blank" >Instagram  </a>
+
+                </span>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+    <script src="../static/js/jquery.js"></script>
+    <script>window.jQuery || document.write("<script src='../static/libs/jquery.min.js'>\x3C/script>")</script>
+    <script src="../static/js/functions.js"></script>
 </div>
-
-<div class="footer footercontainer">
-    <div class="footer-div"><h1 class="footer-copyright">© Anh Nguyen 2020</h1>
-        <h1 class="heading-right">
-            <a href="https://www.linkedin.com/in/anhnguyen0208/" target="_blank" class="text-with-bg">LinkedIn → </a>
-            <a href="https://www.github.com/anguyen0208" target="_blank" class="text-with-bg">GitHub → </a>
-            <a href="http://www.instagram.com/ah_nguyen0208" target="_blank" class="text-with-bg">Instagram → </a>
-            <a href="mailto:a.nguyen0208@gmail.com" class="text-with-bg">Email →</a></h1></div>
-</div>
-
 </body>
-
 </html>
