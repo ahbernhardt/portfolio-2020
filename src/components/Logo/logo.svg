@@ -1,0 +1,42 @@
+<!--LARGE LOGO 100x100-->
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <title>Logo</title>
+    <polygon points="89 88.02 50.34 50.25 50.34 11.27 89 11.27 89 88.02 89 88.02"
+             fill="none"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             stroke-width="5"/>
+    <path d="M50.34,49.61,11.77,10.92V89l.66-.19H35.65v-21A16.6,16.6,0,0,1,50.34,51.36V88.7H89"
+          fill="none"
+
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="5"/>
+</svg>
+
+<!--MEDIUM LOGO 75x75-->
+<!--        stroke="#f5f0e1"-->
+<!--        stroke="#f5f0e1"-->
+<!--<svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">-->
+<!--    <polygon points="69 69.13 37.35 38.2 37.35 6.28 69 6.28 69 69.13 69 69.13" -->
+<!--             fill="none" -->
+<!--             stroke="#fff" -->
+<!--             stroke-linecap="round" -->
+<!--             stroke-linejoin="round" -->
+<!--             stroke-width="3"/>-->
+<!--    <path d="M37.35,37.68,5.77,6V70l.54-.15h19V52.61a13.59,13.59,0,0,1,12-13.5V69.68H69" -->
+<!--          fill="none" -->
+<!--          stroke="#fff" -->
+<!--          stroke-linecap="round" -->
+<!--          stroke-linejoin="round" -->
+<!--          stroke-width="3"/>-->
+<!--</svg>-->
+
+
+
+<!--    SMALL LOGO 50x50-->
+<!--<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">-->
+<!--    <path d="M43.23,6.18H24.91a.58.58,0,0,0-.58.58V23.44L7.39,6.39a.71.71,0,0,0-.49-.21H6.77a.58.58,0,0,0-.57.58V43.24a.58.58,0,0,0,.57.58H18.11a.58.58,0,0,0,.58-.58V33.15a6.9,6.9,0,0,1,5.64-6.78V43.24a.58.58,0,0,0,.58.58H43.23a.58.58,0,0,0,.57-.58V6.76a.58.58,0,0,0-.57-.58Zm-.68,35.48L25.67,24.78V7.44H42.55V41.66Zm-35.1.9V8.34L24.23,25.11a8.16,8.16,0,0,0-6.8,8v9.41Zm18.22,0v-16l16,16Z"-->
+<!--          fill="#fff">-->
+<!--    </path>-->
+<!--    </svg>-->
