@@ -18,7 +18,6 @@ typings/
 .env*
 
 # Build
-/public
 .DS_Store
 
 # Project dependencies
