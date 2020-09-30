@@ -8,5 +8,5 @@ export default ({ children, location }) =>
         <CircleCursor />
         <GlobalStyle />
         {children}
-        <Navigation location={location}></Navigation>
+        <Navigation location={location}/>
     </main>
