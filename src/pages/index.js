@@ -1,8 +1,8 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Intro from '../components/Intro'
+import Intro from '../components/Welcome/Intro'
 import Head from '../components/Head'
-import HelloMiddle from '../components/Hello'
+import HelloMiddle from '../components/Welcome/Hello'
 import { META } from '../utils/constants'
 
 export default ({ location }) =>

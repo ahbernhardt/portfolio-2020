@@ -1,5 +1,5 @@
 import styled, {css} from 'styled-components'
-import { colors,media, getOuterSpace } from '../../style/constants'
+import { colors,media, getOuterSpace } from '../../../style/constants'
 
 export const Wrapper = styled.div`
    position: relative;
@@ -32,9 +32,9 @@ export const Wrapper = styled.div`
     ${media.md`
         width: 300px;
         height: 250px;
-        transform: translate(0%, 0%);
+        transform: translate(0%, 5%);
   `}
-  ${media.sm`
+  ${media.xs`
         width: 200px;
         height: 150px;
         transform: translate(0%, 0%);
@@ -42,10 +42,9 @@ export const Wrapper = styled.div`
     }
     
   .line {
-    // opacity: 50%;
     fill: none;
     stroke:${colors.gray700};
-    stroke-width: 41px;
+    stroke-width: 40px;
   }
       
   .dot {
