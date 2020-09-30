@@ -7,16 +7,16 @@ const Menu = () =>
         {/* LEFT SIDE*/}
         <Nav>
             <NavItem>
-                <a href="https://linkedin.com/in/anhnguyen0208/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+                <a href="https://linkedin.com/in/anhnguyen0208/" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin"/> LinkedIn</a>
             </NavItem>
             <NavItem>
-                <a href="https://github.com/anguyen0208" rel="noopener noreferrer" target="_blank">Github</a>
+                <a href="https://github.com/anguyen0208" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"/> Github</a>
             </NavItem>
             <NavItem>
-                <a href="https://codepen.io/ah_nguyen0208" rel="noopener noreferrer" target="_blank">Codepen</a>
+                <a href="https://codepen.io/ah_nguyen0208" rel="noopener noreferrer" target="_blank"><i className="fab fa-codepen"/> Codepen</a>
             </NavItem>
             <NavItem>
-                <a href="https://www.instagram.com/ah_nguyen0208/" rel="noopener noreferrer" target="_blank">Instagram</a>
+                <a href="https://www.instagram.com/ah_nguyen0208/" rel="noopener noreferrer" target="_blank"><i className="fab fa-instagram"/> Instagram</a>
             </NavItem>
         </Nav>
         <Nav>

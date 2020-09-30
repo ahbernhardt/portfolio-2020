@@ -54,12 +54,17 @@ typings/
 # dotenv environment variable files
 .env*
 
-# gatsby files
-.cache/
-public
+# Node files
+npm-debug.log
+node_modules
 
-# Mac files
+# Build
+public/
+
+# Hidden files
+.cache/
 .DS_Store
+.env
 
 # Yarn
 yarn-error.log

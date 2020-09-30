@@ -9,12 +9,17 @@ export const Wrapper = styled.footer`
     position: static;
     padding-top: 1.5rem;
   `}
+  
+  span {
+    font-family: ${fonts.mono};
+    font-size:1.2rem;
+  } 
 `
 
 export const Item = styled.div`
   position: absolute;
   font-family: ${fonts.mono};
-  color: ${colors.gray500};
+  color: ${colors.gray700};
   font-size: .85rem;
   line-height: 1em;
   ${props => props.position === 'left'

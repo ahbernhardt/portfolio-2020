@@ -9,14 +9,14 @@
     "url": "https://github.com/anguyen0208/anguyen0208.github.io"
   },
   "scripts": {
-    "build": "npm run clean && gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
+    "develop": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "rimraf ./public",
+    "build": "gatsby build",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "clean": "gatsby clean",
+
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "dev": "gatsby develop",
     "lint:css": "stylelint './src/**/*.js'",
     "lint:js": "eslint './src/**/*.js'",
     "precommit": "npm run lint:css && npm run lint:js",

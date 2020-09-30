@@ -19,7 +19,7 @@ const CircleCursor = () => {
         }, 500);
     }, [i]);
     return (
-        <Cursor hollow color={color[i]} duration={0.8} size={20} />
+        <Cursor hollow color={color[i]} duration={0.8} size={20} z-index={2} />
     );
 }
 
