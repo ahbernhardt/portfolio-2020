@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Anh Nguyen's personal portfolio website",
   "private": true,
+  "author": "Anh Nguyen <a.nguyen0208@gmail.com>",
+  "license": "MIT",
   "homepage": "https://anhnguyen.page",
   "repository": {
     "type": "git",
@@ -28,9 +30,14 @@
     "react",
     "gatsby",
     "portfolio"
+  ],"lint-staged": {
+  "*.{js,css,json,md}": [
+    "prettier --write"
   ],
-  "author": "Anh Nguyen <a.nguyen0208@gmail.com>",
-  "license": "MIT",
+  "*.js": [
+    "eslint --fix"
+  ]
+},
   "browserslist": {
     "production": [
       ">0.2%",
