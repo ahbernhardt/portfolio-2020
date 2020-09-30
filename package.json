@@ -22,9 +22,8 @@
     "lint:css": "stylelint './src/**/*.js'",
     "lint:js": "eslint './src/**/*.js'",
     "precommit": "npm run lint:css && npm run lint:js",
-    "gzip": "gzip -r public",
-    "deploy": "./scripts/deploy.js",
-    "publish": "npm run build && npm run deploy"
+    "gzip": "gzip -r public"
+
   },
   "keywords": [
     "react",
