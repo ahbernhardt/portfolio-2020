@@ -38,13 +38,7 @@ export const Wrapper = styled.div`
 `
 
 export const Title = styled.h1`
-  margin-bottom:5px;
-  
-  .welcome {
-    font-size:1.5rem;
-    color: ${colors.yellow500};
-  }
-  
+  margin-bottom:5px; 
   .name {
     color: ${colors.white};
     font-weight: 700;
