@@ -1,0 +1,83 @@
+# anhnguyen.page
+- name: Personal Website
+  url: https://anhnguyen.page/
+  code: https://github.com/anguyen0208/anhnguyen.page
+  description: Second iteration of my personal website built with <a href="https://www.gatsbyjs.org/" class="underline-link" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" class="underline-link" target="_blank">Netlify</a>.
+  used:
+    - thing: JavaScript
+    - thing: React
+    - thing: Gatsby
+    - thing: Netlify
+
+# JavaScript Calculator
+- name: JavaScript Calculator
+  url: https://anguyen0208.github.io/calculator/
+  code: https://github.com/anguyen0208/calculator
+  description: A minimal web application for <a class="underline-link" href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator" target="_blank">FreeCodeCamp Front End Libraries</a> and host with github pages.
+  used:
+    - thing: React
+    - thing: CSS
+    - thing: JavaScript
+    - thing: Github Pages
+
+# Drum Machine
+- name: Drum Machine
+  url: https://anguyen0208.github.io/fcc-drum-machine/
+  code: https://github.com/anguyen0208/fcc-drum-machine
+  description: A fun dum machine web application for <a class="underline-link" href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-drum-machine" target="_blank">FreeCodeCamp Front End Libraries</a> and host with github pages.
+  used:
+    - thing: React
+    - thing: CSS
+    - thing: JavaScript
+    - thing: Github Pages
+
+# Markdown Previewer
+- name: Markdown Previewer
+  url: https://anguyen0208.github.io/fcc-markdown-previewer/
+  code: https://github.com/anguyen0208/fcc-markdown-previewer
+  description: A web application allow user to preview markdon file for <a class="underline-link" href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer" target="_blank">FreeCodeCamp Front End Libraries</a> and host with github pages.
+  used:
+    - thing: React
+    - thing: CSS
+    - thing: JavaScript
+    - thing: Github Pages
+
+# Random Quote Machine
+- name: Random Quote Machine
+  url: https://anguyen0208.github.io/random-quote-machine/
+  code: https://github.com/anguyen0208/random-quote-machine
+  description: This is the first web application project for <a class="underline-link" href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine" target="_blank">FreeCodeCamp Front End Libraries</a>, I built with React and host with github pages.
+  used:
+    - thing: React
+    - thing: CSS
+    - thing: JavaScript
+    - thing: Github Pages
+
+# Survey Form
+- name: Survey Form
+  url: https://anguyen0208.github.io/fcc-survey-form
+  code: https://github.com/anguyen0208/fcc-survey-form
+  description: This is the second project that I completed for <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form" target="_blank" class="underline-link">FreeCodeCamp</a> Responsive Web Design Certification.
+  used:
+    - thing: HTML
+    - thing: CSS
+    - thing: Github Pages
+
+# Tribute Page
+- name: Piet Mondrian Tribute Page
+  url: https://anguyen0208.github.io/fcc-tribute-page
+  code: https://github.com/anguyen0208/fcc-tribute-page
+  description: A tribute page one of my favorite artist and designer. This is the first project of <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page" target="_blank" class="underline-link">FreeCodeCamp</a> Responsive Web Design Certification.
+  used:
+    - thing: HTML
+    - thing: CSS
+    - thing: Github Pages
+
+- name: Financial Calculator
+  url: https://github.com/anguyen0208/Financial-Calculator-V2
+  code: https://github.com/anguyen0208/Financial-Calculator-V2
+  description: Small Java desktop application project created for Java Intermediate class, allow user with options to calculate their simple financial interest.
+  used:
+    - thing: Java
+    - thing: JavaFX
+    - thing: IntelliJ IDE

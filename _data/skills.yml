@@ -1,0 +1,26 @@
+languages:
+  - item: JavaScript (ES6)
+  - item: HTML
+  - item: CSS/Sass
+  - item: Java
+  - item: Python
+
+frameworks:
+  - item: React
+  - item: Node
+  - item: Gatsby
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: IntelliJ IDE
+
+design:
+  - item: Illustrator
+  - item: InDesign
+  - item: Photoshop
+  - item: XD
+  - item: After Effect
+  - item: 3D Max
+  - item: Prototyping
+  - item: Wireframing
