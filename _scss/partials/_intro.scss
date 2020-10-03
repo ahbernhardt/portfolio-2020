@@ -41,12 +41,12 @@
         height: 35px;
       }
       @include tablet {
-        width: 30px;
-        height: 30px;
-      }
-      @include small-mobile {
         width: 25px;
         height: 25px;
+      }
+      @include small-mobile {
+        width: 20px;
+        height: 20px;
       }
     }
   }
@@ -109,13 +109,13 @@
     .emoji {
       &.pointer {
         background-image: url('../img/arrow.png');
-        width: 30px;
-        height: 30px;
+        width: 15px;
+        height: 15px;
         margin: 0 5px;
         vertical-align: text-bottom;
         @include phablet {
-          width: 25px;
-          height: 25px;
+          width: 15px;
+          height: 15px;
         }
       }
     }
