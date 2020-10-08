@@ -1,3 +1,15 @@
+# 25x5 or Pomodoro Clock
+- name: Pomodoro Clock
+  url: https://anguyen0208.github.io/pomodoro-clock/
+  code: https://github.com/anguyen0208/pomodoro-clock
+  description: A morden web timer application for <a class="underline-link" href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-25--5-clock" target="_blank">FreeCodeCamp</a> with personal style, and host with github pages.
+  used:
+    - thing: React
+    - thing: Redux
+    - thing: CSS
+    - thing: JavaScript
+    - thing: Github Pages
+
 # anhnguyen.page
 - name: Personal Website
   url: https://anhnguyen.page/
