@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/anguyen0208/anguyen0208.github.io"
   },
-  "homepage": "https://github.com/anguyen0208/anguyen0208.github.io",
+  "homepage": "https://anguyen0208.github.io",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
