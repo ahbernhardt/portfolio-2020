@@ -1,19 +1,15 @@
-<footer class="footer">
-  <div class="footer__copyright">
-    <div class="top">
-      <span>Designed &amp; Developed by</span>
-    </div>
-    <div class="bottom">
-      <span>Anh Nguyen</span>
-      <span>- 2020</span>
-    </div>
-  </div>
-  <div class="footer__links">
-    {% for link in site.social %}
-    <a href="{{link.url}}" target="_blank" title="{{link.title}}">
-      <span class="text">{{link.title}}</span>
-      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
-    </a>
-    {% endfor %}
-  </div>
-</footer>
+<div class="footer">
+      <div class="footer__copyright">
+          <span>© Anh Nguyen</span>
+          <span>- 2020</span>
+      </div>
+
+      <div class="footer__links">
+        {% for link in site.social %}
+        <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+          <span class="text">{{link.title}}</span>
+          <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
+        </a>
+        {% endfor %}
+      </div>
+</div>

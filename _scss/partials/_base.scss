@@ -1,3 +1,4 @@
+@import "globals";
 html {
   box-sizing: border-box;
 }
@@ -25,12 +26,20 @@ body {
   width: 100%;
 
   &.night {
-    background-color: $night;
+    .left {
+      border-right: 1px dotted $white;
+      background-color: $night;
+    }
+    .right-side{
+      background-color: $night;
+    }
+
     color: $slate;
     ::selection {
       color: $black;
       background: $yellow;
     }
+
     .switch-wrapper {
       .sun {
         background: url('../../img/switch/sun-white.svg') no-repeat center;
@@ -41,10 +50,9 @@ body {
         background-size: 100%;
       }
     }
-    a,
-    strong,
-    .intro,
-    .skills .skillz__category__label,
+    a, strong,
+    .intro .intro__tagline .intro__hello .intro__contact ,
+    .Skills .skills__category__label,
     .experience .job__time,
     .footer__copyright,
     .status {
@@ -53,6 +61,49 @@ body {
     .section__content .underline-link:after {
       background: $off-white;
     }
+  }
+}
+
+.left, .right-side{
+  width: 50%;
+  display: block;
+  vertical-align: top;
+}
+
+.right-side{
+  display: block;
+  height: 100%;
+  float: right;
+  vertical-align: top;
+}
+
+.left {
+  height: 100%;
+  float: left;
+  position: fixed;
+  border-right: 1px dotted $slate;
+}
+
+.left-inner {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 24em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+@include thirteen {
+  .left, .right-side {
+    display: block;
+    width: 100%;
+  }
+
+  .left {
+    position: static;
+    border-right: none;
   }
 }
 
@@ -93,58 +144,56 @@ strong {
   background-position: center;
 }
 
+// RIGHT SECTIONS
 .section {
   display: flex;
   justify-content: center;
-  padding: 100px 170px;
+  padding: 150px 50px;
+
+  @include monitor {
+    padding: 200px 100px 0 100px;
+  }
+
+  @include fifteen {
+    padding: 150px 75px 0 75px;
+  }
+
   @include thirteen {
-    padding: 100px;
-  }
-  @include desktop {
-    padding: 50px;
-  }
-  @include tablet {
     display: block;
+    padding: 75px 125px 50px 125px;
   }
+
+  @include weird-medium {
+    display: block;
+    padding: 35px 75px 25px 60px;
+  }
+
   @include mobile {
-    padding: 50px 35px;
+    display: block;
+    padding: 50px 50px 25px 50px;
   }
+
   &__title {
     flex-shrink: 0;
     width: 200px;
-    margin-right: 70px;
+    margin-bottom: 25px;
     color: $yellow;
     text-transform: uppercase;
-    text-align: right;
+    text-align: left;
     font-weight: 700;
     letter-spacing: 2px;
-    @include desktop {
-      margin-right: 50px;
-    }
-    @include little-desktop {
-      width: 150px;
-    }
-    @include tablet {
-      text-align: left;
-      width: auto;
-    }
   }
+
   &__content {
     font-weight: 300;
     font-size: 1rem;
     width: 100%;
-    max-width: 650px;
-    @include tablet {
-      padding-top: 30px;
-      padding-left: 50px;
-    }
-    @include mobile {
-      padding-left: 30px;
-    }
+
     p {
       margin-top: 0;
       margin-bottom: 25px;
     }
+
     .underline-link {
       position: relative;
       display: inline-block;
@@ -218,6 +267,7 @@ strong {
   right: 10px;
   cursor: pointer;
   display: none;
+
   @include desktop {
     bottom: 20px;
     right: 7px;

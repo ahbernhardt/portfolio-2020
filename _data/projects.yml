@@ -1,3 +1,14 @@
+# Online-Resume
+- name: Online Resume
+  url: https://anguyen0208.github.io/online-resume/
+  code: https://github.com/anguyen0208/online-resume
+  description: An online version of my 2020 resume I made for fun. I was interested in learning motion/animation, so I found this <a class="underline-link" href="https://www.smashingmagazine.com/2020/09/animating-react-components-greensock/" target="_blank"> tutorial </a> and it kind of spun into this weekend project.
+  used:
+    - thing: Parcel
+    - thing: SCSS
+    - thing: JavaScript
+    - thing: Github Pages
+
 # 25x5 or Pomodoro Clock
 - name: Pomodoro Clock
   url: https://anguyen0208.github.io/pomodoro-clock/
@@ -34,8 +45,8 @@
 
 # Drum Machine
 - name: Drum Machine
-  url: https://anguyen0208.github.io/fcc-drum-machine/
-  code: https://github.com/anguyen0208/fcc-drum-machine
+  url: https://anguyen0208.github.io/drum-machine/
+  code: https://github.com/anguyen0208/drum-machine
   description: A fun dum machine web application for <a class="underline-link" href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-drum-machine" target="_blank">FreeCodeCamp Front End Libraries</a> and host with github pages.
   used:
     - thing: React
@@ -45,8 +56,8 @@
 
 # Markdown Previewer
 - name: Markdown Previewer
-  url: https://anguyen0208.github.io/fcc-markdown-previewer/
-  code: https://github.com/anguyen0208/fcc-markdown-previewer
+  url: https://anguyen0208.github.io/markdown-previewer/
+  code: https://github.com/anguyen0208/markdown-previewer
   description: A web application allow user to preview markdon file for <a class="underline-link" href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer" target="_blank">FreeCodeCamp Front End Libraries</a> and host with github pages.
   used:
     - thing: React
@@ -77,8 +88,8 @@
 
 # Tribute Page
 - name: Piet Mondrian Tribute Page
-  url: https://anguyen0208.github.io/fcc-tribute-page
-  code: https://github.com/anguyen0208/fcc-tribute-page
+  url: https://anguyen0208.github.io/tribute-page
+  code: https://github.com/anguyen0208/tribute-page
   description: A tribute page one of my favorite artist and designer. This is the first project of <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page" target="_blank" class="underline-link">FreeCodeCamp</a> Responsive Web Design Certification.
   used:
     - thing: HTML

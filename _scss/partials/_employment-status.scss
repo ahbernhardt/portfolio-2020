@@ -1,8 +1,11 @@
+@import "globals";
 .status {
   display: flex;
   align-items: center;
-  font-size: 1.1rem;
-  margin-top: 70px;
+  font-size: .8rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  opacity: 50%;
 
   &__light {
     width: 30px;
