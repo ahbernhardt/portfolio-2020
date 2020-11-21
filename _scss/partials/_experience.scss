@@ -22,6 +22,10 @@
       @include monitor {
         font-size: 1.1rem;
       }
+
+      @include fifteen {
+        font-size: 1rem;
+      }
     }
 
     &__time {
@@ -33,6 +37,9 @@
 
       @include monitor {
         font-size: 1.1rem;
+      }
+      @include fifteen {
+        font-size: 0.9rem;
       }
       @include mobile {
         font-size: 0.8rem;
@@ -46,6 +53,10 @@
 
       @include monitor {
         font-size: 1.1rem;
+      }
+
+      @include fifteen {
+        font-size: 1rem;
       }
 
     }

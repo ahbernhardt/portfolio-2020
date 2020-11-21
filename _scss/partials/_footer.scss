@@ -22,20 +22,22 @@
 
   @include fifteen {
     position: absolute;
-    padding: 25px 75px;
+    padding-left: 80px;
+    padding-right: 80px;
     bottom: 25px;
   }
 
   @include thirteen {
     position: static;
-    bottom: 25px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 45px;
   }
 
   @include tablet {
     position: static;
-    padding-left: 120px;
-    padding-right: 115px;
-    bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   @include mobile {
@@ -56,6 +58,10 @@
 
     @include monitor {
       font-size: 1.1rem;
+    }
+
+    @include fifteen {
+      font-size: 0.9rem;
     }
 
     @include weird-medium {

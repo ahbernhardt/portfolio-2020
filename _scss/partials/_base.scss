@@ -86,7 +86,7 @@ body {
 
 @include thirteen {
   .left, .right-side {
-    display: block;
+    display: inline-block;
     width: 100%;
   }
 
@@ -95,6 +95,8 @@ body {
     border-right: none;
   }
 }
+
+
 
 a {
   @include transition;
@@ -148,7 +150,7 @@ strong {
   }
 
   @include fifteen {
-    padding: 150px 75px 0 75px;
+    padding: 150px 100px 0 100px;
   }
 
   @include thirteen {
@@ -156,9 +158,14 @@ strong {
     padding: 75px 125px 50px 125px;
   }
 
+  @include tablet {
+    display: block;
+    padding: 25px 100px 50px 100px;
+  }
+
   @include weird-medium {
     display: block;
-    padding: 35px 75px 25px 60px;
+    padding: 35px 100px 25px 100px;
   }
 
   @include mobile {
@@ -183,6 +190,10 @@ strong {
     @include monitor{
       font-size: 24px;
     }
+
+    @include fifteen{
+      font-size: 22px;
+    }
   }
 
   &__content {
@@ -192,6 +203,10 @@ strong {
 
     @include xl-monitor{
       font-size: 18px;
+    }
+
+    @include fifteen{
+      font-size: 15px;
     }
 
     p {

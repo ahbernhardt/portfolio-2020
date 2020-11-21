@@ -17,7 +17,7 @@
   }
 
   @include fifteen {
-    padding: 100px 70px 0 70px;
+    padding: 100px 80px 0 80px;
   }
 
   // One-Page
@@ -30,8 +30,11 @@
 
   @include tablet {
     height: 100vh;
-    padding: 300px 120px 300px 120px;
+    display: block;
+    padding: 40% 100px 0 100px;
   }
+
+
   @include weird-medium {
     height: 100vh;
     padding: 120px 70px;
@@ -41,12 +44,18 @@
     padding: 120px 50px;
   }
   @include mobile {
-    padding: 70px 50px 100px 50px;
+    height: 100vh;
+    padding: 45% 50px 0 50px;
   }
 
   @include small-mobile {
     height: 100vh;
-    padding: 70px 50px 100px 50px;
+    padding: 40% 50px 0 50px;
+  }
+
+  @include tiny-mobile {
+    height: 100vh;
+    padding: 35% 50px 0 50px;
   }
 
 
@@ -56,24 +65,25 @@
     @include xl-monitor {
       font-size: 2.75rem;
     }
-
     @include monitor {
       font-size: 2.25rem;
     }
     @include fifteen {
       font-size: 2rem;
     }
+
+
     @include desktop {
       font-size: 2rem;
     }
     @include tablet {
-      font-size: 2rem;
+      font-size: 2.25rem;
     }
     @include phablet {
       font-size: 1.75rem;
     }
     @include mobile {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
     @include small-mobile {
       font-size: 1.2rem;
@@ -95,13 +105,18 @@
         height: 45px;
       }
 
+      @include fifteen {
+        width: 40px;
+        height: 40px;
+      }
+
       @include desktop {
         width: 35px;
         height: 35px;
       }
       @include tablet {
-        width: 25px;
-        height: 25px;
+        width: 35px;
+        height: 35px;
       }
       @include mobile {
         width: 25px;
@@ -124,14 +139,27 @@
       font-size: 56px;
       margin-bottom: 45px;
     }
+
+    @include fifteen {
+      font-size: 48px;
+      margin-bottom: 45px;
+    }
+
+    @include tablet {
+      margin-bottom: 15px;
+    }
+
     @include mobile {
-      font-size: 42px;
+      font-size: 32px;
     }
     .wave-hand {
       background-image: url('../../img/emojis/wave.png');
       margin-left: 10px;
       cursor: pointer;
 
+      @include mobile {
+        margin-left: 0;
+      }
       &.animated {
         animation-duration: 1s;
         animation-fill-mode: both;
@@ -176,6 +204,13 @@
     @include monitor {
       font-size: 32px;
     }
+    @include fifteen {
+      font-size: 24px;
+    }
+    @include mobile {
+      font-size: 18px;
+    }
+
     .name {
       font-weight: 700;
     }
@@ -194,8 +229,16 @@
     @include monitor{
       font-size: 1.2rem;
     }
+
+    @include fifteen{
+      font-size: 1rem;
+    }
     @include phablet {
       font-size: 1rem;
+    }
+
+    @include mobile {
+      font-size: .8rem;
     }
     .emoji {
       &.pointer {

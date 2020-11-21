@@ -18,6 +18,29 @@
     opacity: 85%;
   }
 
+  @include fifteen{
+    margin-top: 25px;
+    font-size: .8rem;
+    opacity: 85%;
+  }
+
+  @include mobile{
+    padding-top: 30%;
+    font-size: .7rem;
+    opacity: 85%;
+  }
+
+  @include small-mobile{
+    padding-top: 28%;
+    font-size: .7rem;
+    opacity: 85%;
+  }
+
+  @include tiny-mobile{
+    padding-top: 28%;
+    font-size: .7rem;
+    opacity: 85%;
+  }
   &__light {
     width: 30px;
     height: 30px;

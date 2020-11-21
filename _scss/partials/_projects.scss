@@ -1,6 +1,14 @@
 @import "globals";
 .projects {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
+  @include thirteen {
+    padding-bottom: 35px;
+  }
+
+  @include tablet {
+    padding-bottom: 0;
+  }
+
   .project {
     max-width: 600px;
     margin-bottom: 50px;
@@ -14,12 +22,13 @@
         font-size: 1.2rem;
       }
 
+
       &__sourcecode {
         @include xl-monitor {
           font-size: 1.1rem;
         }
         @include monitor {
-          font-size: .9rem;
+          font-size: .8rem;
         }
         @include transition;
         font-size: 12px;
