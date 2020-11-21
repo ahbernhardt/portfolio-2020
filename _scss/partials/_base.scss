@@ -26,10 +26,10 @@ body {
   width: 100%;
 
   &.night {
-    .left {
-      border-right: 1px dotted $white;
+    .intro, .footer{
       background-color: $night;
     }
+
     .right-side{
       background-color: $night;
     }
@@ -51,7 +51,7 @@ body {
       }
     }
     a, strong,
-    .intro .intro__tagline .intro__hello .intro__contact ,
+    .intro,
     .Skills .skills__category__label,
     .experience .job__time,
     .footer__copyright,
@@ -81,18 +81,7 @@ body {
   height: 100%;
   float: left;
   position: fixed;
-  border-right: 1px dotted $slate;
-}
-
-.left-inner {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  min-height: 24em;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  height: 100%;
+  border-right: .5px dashed $slate;
 }
 
 @include thirteen {
@@ -150,8 +139,12 @@ strong {
   justify-content: center;
   padding: 150px 50px;
 
+  @include xl-monitor {
+    padding: 200px 200px 0 200px;
+  }
+
   @include monitor {
-    padding: 200px 100px 0 100px;
+    padding: 200px 130px 0 130px;
   }
 
   @include fifteen {
@@ -182,12 +175,24 @@ strong {
     text-align: left;
     font-weight: 700;
     letter-spacing: 2px;
+
+    @include xl-monitor{
+      font-size: 30px;
+    }
+
+    @include monitor{
+      font-size: 24px;
+    }
   }
 
   &__content {
     font-weight: 300;
     font-size: 1rem;
     width: 100%;
+
+    @include xl-monitor{
+      font-size: 18px;
+    }
 
     p {
       margin-top: 0;
@@ -267,6 +272,11 @@ strong {
   right: 10px;
   cursor: pointer;
   display: none;
+
+  @include xl-monitor{
+    right: 15px;
+    width: 50px;
+  }
 
   @include desktop {
     bottom: 20px;

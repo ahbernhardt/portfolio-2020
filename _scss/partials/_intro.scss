@@ -1,16 +1,23 @@
 @import "globals";
 
 .intro {
-  padding: 100px 70px 0 70px;
+  padding: 100px 70px 100px 70px;
   width: 100%;
+  height: 100%;
   display: inline-block;
   justify-content: space-between;
 
-  @include monitor {
-    padding: 200px 100px 0 100px;
+  @include xl-monitor {
+    width: 100%;
+    padding: 200px 150px 0 150px;
   }
+
+  @include monitor {
+    padding: 150px 120px 0 120px;
+  }
+
   @include fifteen {
-    padding: 120px 70px 0 70px;
+    padding: 100px 70px 0 70px;
   }
 
   // One-Page
@@ -45,6 +52,11 @@
 
   &__hello, &__tagline {
     font-size: 2.25rem;
+
+    @include xl-monitor {
+      font-size: 2.75rem;
+    }
+
     @include monitor {
       font-size: 2.25rem;
     }
@@ -73,11 +85,25 @@
     .emoji {
       width: 40px;
       height: 40px;
+      @include xl-monitor {
+        width: 55px;
+        height: 55px;
+      }
+
+      @include monitor {
+        width: 45px;
+        height: 45px;
+      }
+
       @include desktop {
         width: 35px;
         height: 35px;
       }
       @include tablet {
+        width: 25px;
+        height: 25px;
+      }
+      @include mobile {
         width: 25px;
         height: 25px;
       }
@@ -91,7 +117,16 @@
   &__hello {
     font-weight: 300;
     margin-bottom: 25px;
-
+    @include xl-monitor {
+      font-size: 64px;
+    }
+    @include monitor {
+      font-size: 56px;
+      margin-bottom: 45px;
+    }
+    @include mobile {
+      font-size: 42px;
+    }
     .wave-hand {
       background-image: url('../../img/emojis/wave.png');
       margin-left: 10px;
@@ -133,9 +168,14 @@
 
   &__tagline {
     font-weight: 300;
-    max-width: 700px;
     margin-bottom: 50px;
 
+    @include xl-monitor{
+      width: 100%;
+    }
+    @include monitor {
+      font-size: 32px;
+    }
     .name {
       font-weight: 700;
     }
@@ -147,6 +187,13 @@
   &__contact {
     font-size: 1.25rem;
     font-weight: 400;
+    @include xl-monitor{
+      font-size: 1.5rem;
+    }
+
+    @include monitor{
+      font-size: 1.2rem;
+    }
     @include phablet {
       font-size: 1rem;
     }

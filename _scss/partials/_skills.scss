@@ -1,3 +1,4 @@
+@import "globals";
 .Skills {
   .skills {
     display: flex;
@@ -15,10 +16,25 @@
         font-weight: 700;
         color: $black;
         text-transform: uppercase;
+
+        @include xl-monitor {
+          font-size: 1.3rem;
+        }
+
+        @include monitor{
+          font-size: 1.1rem;
+          padding-bottom: 5px;
+        }
       }
       &__item {
         margin: 3px 0;
         font-size: 0.9rem;
+        @include xl-monitor {
+          font-size: 1.1rem;
+        }
+        @include monitor{
+          font-size: 16px;
+        }
       }
     }
   }

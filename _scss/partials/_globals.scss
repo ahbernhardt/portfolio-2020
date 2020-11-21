@@ -16,6 +16,7 @@ $font-stack: 'Source Sans Pro', system, system-ui, -apple-system,
   BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
 $Apercu: 'Apercu', $font-stack;
 // Media queries
+$xlarge-monitor: 2560px;
 $large-monitor: 1920px;
 $fifteen-inch: 1440px;
 $thirteen-inch: 1280px;
@@ -32,12 +33,19 @@ $tiny-mobile-width: 330px;
   transition: all 0.2s ease-in-out;
 }
 
+@mixin xl-monitor {
+  @media screen and (max-width: #{$xlarge-monitor}) {
+    @content;
+  }
+}
+
 @mixin monitor {
   @media screen and (max-width: #{$large-monitor}) {
     @content;
   }
+}
 
-}@mixin fifteen {
+@mixin fifteen {
   @media screen and (max-width: #{$fifteen-inch}) {
     @content;
   }

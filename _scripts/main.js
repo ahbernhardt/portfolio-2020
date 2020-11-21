@@ -20,7 +20,7 @@ $(function() {
     }
   });
 
-  const introHeight = document.querySelector('.background').offsetHeight;
+  const introHeight = document.querySelector('.intro').offsetHeight;
   const topButton = document.getElementById('top-button');
   const $topButton = $('#top-button');
 
@@ -69,7 +69,6 @@ $(function() {
     viewFactor: 0.3,
   });
 
-  sr.reveal('.intro');
   sr.reveal('.background');
   sr.reveal('.skills');
   sr.reveal('.experience', { viewFactor: 0.2 });

@@ -5,7 +5,18 @@
   font-size: .8rem;
   margin-top: 25px;
   margin-bottom: 25px;
-  opacity: 50%;
+
+  @include xl-monitor{
+    margin-top: 75px;
+    font-size: 1.1rem;
+    opacity: 85%;
+  }
+
+  @include monitor{
+    margin-top: 75px;
+    font-size: 1rem;
+    opacity: 85%;
+  }
 
   &__light {
     width: 30px;
@@ -22,7 +33,7 @@
       animation-iteration-count: infinite;
       opacity: 0;
       border: 3px solid $green;
-      border-radius: 30px;
+      border-radius: 50px;
     }
 
     @keyframes pulsate {
@@ -41,8 +52,8 @@
 
     &__led {
       position: absolute;
-      width: 13px;
-      height: 13px;
+      width: 15px;
+      height: 15px;
       background: $green;
       border-radius: 100%;
     }
@@ -50,5 +61,6 @@
 
   &__message {
     margin-left: 15px;
+    color: $slate;
   }
 }
