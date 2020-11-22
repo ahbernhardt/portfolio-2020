@@ -2,14 +2,18 @@
 	<div class="section__content">
 		<div class="section__title">Skills</div>
 		<div class="skills">
+
+			<!--	Languages		-->
 			<div class="skills__category">
 				<div class="skills__category__label">Languages</div>
 				<ul>
 					{% for language in site.data.skills.languages %}
-					<li class="skillz__category__item">{{language.item}}</li>
+					<li class="skills__category__item">{{language.item}}</li>
 					{% endfor %}
 				</ul>
 			</div>
+
+			<!--	Frameworks		-->
 			<div class="skills__category">
 				<div class="skills__category__label">Frameworks</div>
 				<ul>
@@ -18,14 +22,8 @@
 					{% endfor %}
 				</ul>
 			</div>
-			<div class="skills__category">
-				<div class="skills__category__label">Tools</div>
-				<ul>
-					{% for tool in site.data.skills.tools %}
-					<li class="skills__category__item">{{tool.item}}</li>
-					{% endfor %}
-				</ul>
-			</div>
+
+			<!--	Design		-->
 			<div class="skills__category">
 				<div class="skills__category__label">Design</div>
 				<ul>
@@ -34,6 +32,17 @@
 					{% endfor %}
 				</ul>
 			</div>
+
+			<!--	Tools		-->
+			<div class="skills__category">
+				<div class="skills__category__label">Tools</div>
+				<ul>
+					{% for tool in site.data.skills.tools %}
+					<li class="skills__category__item">{{tool.item}}</li>
+					{% endfor %}
+				</ul>
+			</div>
+
 		</div>
 	</div>
 </section>

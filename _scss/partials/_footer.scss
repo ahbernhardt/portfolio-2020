@@ -28,10 +28,17 @@
   }
 
   @include thirteen {
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    bottom: 25px;
+  }
+
+  @include desktop {
     position: static;
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-bottom: 45px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
   }
 
   @include tablet {

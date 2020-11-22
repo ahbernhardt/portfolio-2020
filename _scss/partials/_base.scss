@@ -85,7 +85,7 @@ body {
   border-right: .5px dashed $slate;
 }
 
-@include thirteen {
+@include desktop{
   .left, .right-side {
     display: inline-block;
     width: 100%;
@@ -147,16 +147,15 @@ strong {
   }
 
   @include monitor {
-    padding: 200px 130px 0 130px;
+    padding: 225px 130px 0 130px;
   }
 
   @include fifteen {
-    padding: 150px 100px 0 100px;
+    padding: 200px 100px 0 100px;
   }
 
   @include thirteen {
-    display: block;
-    padding: 75px 125px 50px 125px;
+    padding: 100px 90px 25px 90px;
   }
 
   @include tablet {
@@ -203,7 +202,11 @@ strong {
     width: 100%;
 
     @include xl-monitor{
-      font-size: 18px;
+      font-size: 22px;
+    }
+
+    @include monitor{
+      font-size: 20px;
     }
 
     @include fifteen{
@@ -243,6 +246,7 @@ strong {
   }
 }
 
+
 .arrow-link {
   @include transition;
   font-weight: 700;
@@ -277,6 +281,7 @@ strong {
   }
 }
 
+// GO to the TOP arrow
 #top-button {
   @include transition;
   background: transparent;
@@ -294,10 +299,15 @@ strong {
     width: 50px;
   }
 
-  @include desktop {
+  @include thirteen {
     bottom: 20px;
     right: 7px;
     width: 35px;
+  }
+
+  @include desktop {
+    bottom: 20px;
+    right: 7px;
   }
   @include mobile {
     bottom: 15px;
@@ -308,10 +318,24 @@ strong {
   &:focus {
     transform: translateY(-10px);
   }
-  img {
-    width: 100%;
+
+  .up-arrow {
+    color: $blue;
+    font-size: 24px;
+    &.animated {
+      animation-duration: 1s;
+      animation: up-down 1s alternate infinite;
+    }
+    &.up-down {
+      animation-name: up-down;
+    }
+
+    @keyframes up-down {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+    }
+    }
   }
-}
 
 .waypoint {
   opacity: 0;

@@ -17,15 +17,17 @@
   }
 
   @include fifteen {
-    padding: 100px 80px 0 80px;
+    padding: 35% 80px 0 80px;
   }
 
   // One-Page
   @include thirteen {
-    height: 100vh;
-    display: inline-flex;
-    flex-direction: column;
-    padding: 150px 125px 150px 125px;
+    padding: 100px 75px 150px 75px;
+  }
+
+  @include desktop {
+    display: block;
+    padding: 15% 100px 0 100px;
   }
 
   @include tablet {
@@ -145,6 +147,7 @@
       margin-bottom: 45px;
     }
 
+
     @include tablet {
       margin-bottom: 15px;
     }
@@ -214,9 +217,7 @@
     .name {
       font-weight: 700;
     }
-    .technologist {
-      background-image: url('../../img/emojis/technologist.png');
-    }
+
   }
 
   &__contact {

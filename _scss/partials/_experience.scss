@@ -1,7 +1,10 @@
 @import "globals";
 .experience {
+  @include monitor{
+    margin-top: -25px;
+  }
   .jobs {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .job {
     margin-bottom: 25px;
@@ -16,7 +19,7 @@
       font-weight: 700;
 
       @include xl-monitor {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
       }
 
       @include monitor {
@@ -32,7 +35,7 @@
       font-size: 0.9rem;
       font-family: 'Inconsolata', monospace;
       @include xl-monitor {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
       }
 
       @include monitor {
@@ -62,11 +65,10 @@
     }
   }
 
-  .arrow-link {
-    font-size: 1.25rem;
-    &:after {
-      width: 20px;
-      height: 20px;
-    }
+  a {
+    font-size: 1.1rem;
+  }
+  i {
+    font-size: 1.5rem;
   }
 }

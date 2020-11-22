@@ -1,8 +1,13 @@
 @import "globals";
 .projects {
+  margin-top: -50px;
   margin-bottom: 100px;
   @include thirteen {
     padding-bottom: 35px;
+  }
+  @include desktop {
+    margin-bottom: 50px;
+    padding-bottom: 0;
   }
 
   @include tablet {
@@ -10,18 +15,23 @@
   }
 
   .project {
-    max-width: 600px;
+    max-width: 800px;
     margin-bottom: 50px;
 
     &__name {
       margin-bottom: 10px;
-        @include xl-monitor {
-          font-size: 1.4rem;
-        }
+      @include xl-monitor {
+        font-size: 1.4rem;
+      }
+
+
       @include monitor {
         font-size: 1.2rem;
       }
 
+      @include fifteen {
+        font-size: 1.1rem;
+      }
 
       &__sourcecode {
         @include xl-monitor {
@@ -51,10 +61,10 @@
       margin-bottom: 20px;
 
       @include xl-monitor {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
       }
 
-      @include xl-monitor {
+      @include monitor {
         font-size: 0.9rem;
       }
     }

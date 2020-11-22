@@ -11,14 +11,16 @@ resume: https://anguyen0208.github.io/resume.pdf
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/anhnguyen0208
+  - title: email
+    url: mailto:a.nguyen0208@gmail.com
   - title: github
     url: https://github.com/anguyen0208
   - title: instagram
     url: https://instagram.com/ah_nguyen0208
   - title: codepen
     url: http://codepen.io/ah_nguyen0208
-  - title: email
-    url: mailto:a.nguyen0208@gmail.com
+
+
 
 
 # Build settings

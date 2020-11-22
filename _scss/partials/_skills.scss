@@ -1,5 +1,11 @@
 @import "globals";
 .Skills {
+  @include monitor{
+    margin-top: 25px;
+  }
+  @include fifteen{
+    margin-top: -75px;
+  }
   .skills {
     display: flex;
     justify-content: space-between;
@@ -18,7 +24,7 @@
         text-transform: uppercase;
 
         @include xl-monitor {
-          font-size: 1.3rem;
+          font-size: 1.4rem;
         }
 
         @include monitor{
@@ -34,7 +40,7 @@
         margin: 3px 0;
         font-size: 0.9rem;
         @include xl-monitor {
-          font-size: 1.1rem;
+          font-size: 1.2rem;
         }
         @include monitor{
           font-size: 16px;

@@ -24,6 +24,7 @@ $(function() {
   const topButton = document.getElementById('top-button');
   const $topButton = $('#top-button');
 
+
   window.addEventListener(
     'scroll',
     function() {
@@ -60,6 +61,20 @@ $(function() {
   hand.addEventListener('mouseout', function() {
     hand.classList.remove('wave');
   });
+
+  const uparrow = document.querySelector('i.up-arrow');
+
+  function uparrowOnLoad() {
+    uparrow.classList.add('up-down');
+    setTimeout(function() {
+      uparrow.classList.remove('up-down');
+    }, 500);
+  }
+
+  setTimeout(function() {
+    uparrowOnLoad();
+  }, 500);
+
 
   window.sr = ScrollReveal({
     reset: false,
