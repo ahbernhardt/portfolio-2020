@@ -24,7 +24,6 @@ $(function() {
   const topButton = document.getElementById('top-button');
   const $topButton = $('#top-button');
 
-
   window.addEventListener(
     'scroll',
     function() {
@@ -74,7 +73,6 @@ $(function() {
   setTimeout(function() {
     uparrowOnLoad();
   }, 500);
-
 
   window.sr = ScrollReveal({
     reset: false,

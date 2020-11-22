@@ -301,8 +301,7 @@ strong {
 
   @include thirteen {
     bottom: 20px;
-    right: 7px;
-    width: 35px;
+    right: 10px;
   }
 
   @include desktop {
@@ -322,6 +321,17 @@ strong {
   .up-arrow {
     color: $blue;
     font-size: 24px;
+
+    @include thirteen{
+      font-size: 18px;
+    }
+    @include tablet{
+      font-size: 18px;
+    }
+
+    @include mobile{
+      font-size: 18px;
+    }
     &.animated {
       animation-duration: 1s;
       animation: up-down 1s alternate infinite;
