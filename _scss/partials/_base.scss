@@ -26,15 +26,15 @@ body {
   width: 100%;
 
   &.night {
-    .intro, .footer{
+    .intro, .footer-wrapper{
       background-color: $night;
     }
 
-    .left, .right-side{
+     .left, .right-side{
       background-color: $night;
     }
 
-    background-color: $night;
+
     color: $slate;
     ::selection {
       color: $black;
@@ -65,6 +65,7 @@ body {
   }
 }
 
+
 .left, .right-side{
   width: 50%;
   display: block;
@@ -85,8 +86,19 @@ body {
   border-right: .5px dashed $slate;
 }
 
+.footer-wrapper{
+  background-color: transparent;
+  display: block;
+  position: fixed;
+  vertical-align: bottom;
+  border-right: .5px dashed $slate;
+  top: 88%;
+  width: 50%;
+  height: 10%;
+}
+
 @include desktop{
-  .left, .right-side {
+  .left, .right-side, .footer-wrapper{
     display: block;
     padding: 0 75px 0 75px;
     width: 100%;
@@ -97,6 +109,11 @@ body {
     border-right: none;
   }
 
+  .footer-wrapper{
+    position: revert;
+    vertical-align: bottom;
+    border-right: none;
+  }
 }
 
 @include mobile{
@@ -104,6 +121,9 @@ body {
     display: block;
     width: 100%;
     padding: 0 50px 0 50px;
+  }
+  .left {
+    position: static;
   }
 }
 
