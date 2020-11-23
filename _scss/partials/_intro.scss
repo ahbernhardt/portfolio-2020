@@ -30,13 +30,14 @@
     padding: 15% 100px 0 100px;
   }
 
-  @include tablet {
-    height: 100vh;
+  @include little-desktop {
     display: block;
-    padding: 40% 100px 0 100px;
+    padding: 15% 75px 0 75px;
   }
-
-
+  @include tablet {
+    display: block;
+    padding: 15% 50px 100px 50px;
+  }
   @include weird-medium {
     height: 100vh;
     padding: 120px 70px;
@@ -47,17 +48,15 @@
   }
   @include mobile {
     height: 100vh;
-    padding: 45% 50px 0 50px;
+    padding: 65% 0;
   }
-
   @include small-mobile {
     height: 100vh;
-    padding: 40% 50px 0 50px;
+    padding: 70% 0;
   }
-
   @include tiny-mobile {
     height: 100vh;
-    padding: 35% 50px 0 50px;
+    padding: 55% 0;
   }
 
 
@@ -74,12 +73,11 @@
       font-size: 2rem;
     }
 
-
     @include desktop {
       font-size: 2rem;
     }
     @include tablet {
-      font-size: 2.25rem;
+      font-size: 2.5rem;
     }
     @include phablet {
       font-size: 1.75rem;
@@ -91,7 +89,7 @@
       font-size: 1.2rem;
     }
     @include tiny-mobile {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
     }
 
     .emoji {
@@ -113,12 +111,12 @@
       }
 
       @include desktop {
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
       }
       @include tablet {
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
       }
       @include mobile {
         width: 25px;
@@ -147,13 +145,22 @@
       margin-bottom: 45px;
     }
 
-
-    @include tablet {
+    @include desktop {
+      font-size: 56px;
       margin-bottom: 15px;
     }
-
+    @include tablet {
+      font-size: 56px;
+      margin-bottom: 15px;
+    }
     @include mobile {
       font-size: 32px;
+    }
+    @include small-mobile {
+      font-size: 30px;
+    }
+    @include tiny-mobile {
+      font-size: 28px;
     }
     .wave-hand {
       background-image: url('../../img/emojis/wave.png');
@@ -210,8 +217,17 @@
     @include fifteen {
       font-size: 24px;
     }
+    @include desktop {
+      padding-right: 50px;
+      font-size: 28px;
+    }
     @include mobile {
-      font-size: 18px;
+      padding-right: 15px;
+      font-size: 17px;
+    }
+
+    @include tiny-mobile {
+      font-size: 15px;
     }
 
     .name {
@@ -239,8 +255,15 @@
     }
 
     @include mobile {
+      margin-top: -25px;
       font-size: .8rem;
     }
+
+    @include small-mobile {
+      margin-top: -25px;
+      font-size: .7rem;
+    }
+
     .emoji {
       &.pointer {
         background-image: url('../../img/arrow.png');
@@ -252,6 +275,10 @@
           width: 15px;
           height: 15px;
         }
+        @include mobile {
+          width: 12px;
+          height: 12px;
+        }
       }
     }
     .highlight-link {
@@ -260,7 +287,7 @@
       text-decoration: none;
       display: inline-block;
       padding: 2px 3px;
-      box-shadow: inset 0 -2px 0 $yellow;
+      border-bottom: solid 2px $yellow;
       &:hover {
         box-shadow: inset 0 -33px 0 0 $yellow;
         color: $white;

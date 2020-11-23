@@ -87,7 +87,8 @@ body {
 
 @include desktop{
   .left, .right-side {
-    display: inline-block;
+    display: block;
+    padding: 0 75px 0 75px;
     width: 100%;
   }
 
@@ -97,6 +98,17 @@ body {
   }
 }
 
+@include mobile{
+  .left, .right-side {
+    padding: 0 50px 0 50px;
+  }
+}
+
+@include tiny-mobile{
+  .left, .right-side {
+    padding: 0 25px 0 25px;
+  }
+}
 
 
 a {
@@ -160,7 +172,7 @@ strong {
 
   @include tablet {
     display: block;
-    padding: 25px 100px 50px 100px;
+    padding: 0 50px 100px 50px;
   }
 
   @include weird-medium {
@@ -170,7 +182,7 @@ strong {
 
   @include mobile {
     display: block;
-    padding: 50px 50px 25px 50px;
+    padding: 50px 0 25px 0;
   }
 
   &__title {
@@ -193,6 +205,10 @@ strong {
 
     @include fifteen{
       font-size: 22px;
+    }
+
+    @include mobile{
+      font-size: 20px;
     }
   }
 

@@ -6,6 +6,10 @@
   @include fifteen{
     margin-top: -75px;
   }
+
+  @include tablet{
+    margin-top: -50px;
+  }
   .skills {
     display: flex;
     justify-content: space-between;
