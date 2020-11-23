@@ -30,7 +30,7 @@ body {
       background-color: $night;
     }
 
-    .right-side{
+    .left, .right-side{
       background-color: $night;
     }
 
@@ -96,17 +96,20 @@ body {
     position: static;
     border-right: none;
   }
+
 }
 
 @include mobile{
   .left, .right-side {
+    display: block;
+    width: 100%;
     padding: 0 50px 0 50px;
   }
 }
 
 @include tiny-mobile{
   .left, .right-side {
-    padding: 0 25px 0 25px;
+    margin: 0 25px 0 25px;
   }
 }
 

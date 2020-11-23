@@ -35,8 +35,8 @@
     padding: 15% 75px 0 75px;
   }
   @include tablet {
-    display: block;
-    padding: 15% 50px 100px 50px;
+    display: 100%;
+    padding: 15% 50px 75px 50px;
   }
   @include weird-medium {
     height: 100vh;
