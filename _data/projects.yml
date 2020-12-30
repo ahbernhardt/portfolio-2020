@@ -1,3 +1,14 @@
+# 25x5 or Pomodoro Clock
+- name: Pomodoro
+  url: https://anguyen0208.github.io/Pomodoro-Clock/
+  code: https://github.com/anguyen0208/Pomodoro-Clock
+  description: A web Pomodoro Clock application, upgrade version of <a class="underline-link" href="https://anguyen0208.github.io/25-5-timer/" target="_blank"> 25+5 Timer</a>, with personal style, and host with github pages.
+  used:
+    - thing: React
+    - thing: CSS
+    - thing: JavaScript
+    - thing: Github Pages
+
 # Poncho.club
 - name: PONCHO Club
   url: https://poncho.club
@@ -22,7 +33,7 @@
     - thing: Github Pages
 
 # 25x5 or Pomodoro Clock
-- name: 25x5 Clock
+- name: 25x5 Timer
   url: https://anguyen0208.github.io/25-5-timer/
   code: https://github.com/anguyen0208/25-5-timer
   description: A morden web timer application for <a class="underline-link" href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-25--5-clock" target="_blank">FreeCodeCamp</a> with personal style, and host with github pages.
