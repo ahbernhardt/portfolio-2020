@@ -1,3 +1,35 @@
+# Loan Calculation
+- name: Loan Calculation
+  url: https://anguyen0208.github.io/Loan-Calculator/
+  code: https://github.com/anguyen0208/Loan-Calculator
+  description: Calculate compound interest progressive Web App with React.
+  used:
+    - thing: ReactJS
+    - thing: SCSS
+    - thing: HTML
+
+# anhnguyen.page
+- name: Personal Website
+  url: https://anhnguyen.page/
+  code: https://github.com/anguyen0208/anhnguyen.page
+  description: Personal website using Gatsby framework, MongoDB Atlas for data, and Netlify.
+  used:
+    - thing: Gatsby
+    - thing: ReactJS
+    - thing: MongoDB
+    - thing: Netlify
+
+# Portfolio Express
+- name: Porfolio V2
+  url: https://anguyen0208-express.herokuapp.com/
+  code: https://github.com/anguyen0208/portfolio-express
+  description: Portfolio-v2 built with Express, Node, ejs, and deploy with Heroku.
+  used:
+    - thing: ExpressJS
+    - thing: HTML/CSS
+    - thing: EJS
+    - thing: NodeJS
+
 # 25x5 or Pomodoro Clock
 - name: Pomodoro
   url: https://anguyen0208.github.io/Pomodoro-Clock/
