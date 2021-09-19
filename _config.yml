@@ -2,12 +2,12 @@
 name: Anh Nguyen
 title: Anh Nguyen | Portfolio
 description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
-url: https://anguyen0208.github.io/v2
+url: https://anguyen0208.github.io/v2/
 baseurl: ''
 email: anhbernhardt@gmail.com
-cover: https://anguyen0208.github.io/img/og.png
-logo: https://anguyen0208.github.io/img/logo/favicon-32x32.png
-resume: https://anguyen0208.github.io/resume.pdf
+cover: https://anguyen0208.github.io/v2/img/og.png
+logo: https://anguyen0208.github.io/v2/img/logo/favicon-32x32.png
+resume: https://anguyen0208.github.io/v2/resume.pdf
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/anhbernhardt

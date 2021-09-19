@@ -55,8 +55,8 @@
 
 # Online-Resume
 - name: Online Resume
-  url: https://anguyen0208.github.io/online-resume/
-  code: https://github.com/anguyen0208/online-resume
+  url: https://anguyen0208.github.io/resume-website/
+  code: https://github.com/anguyen0208/resume-website
   description: An online version of my 2020 resume I made for fun. I was interested in learning motion/animation, so I found this <a class="underline-link" href="https://www.smashingmagazine.com/2020/09/animating-react-components-greensock/" target="_blank"> tutorial </a> and it kind of spun into this weekend project.
   used:
     - thing: Parcel
@@ -75,17 +75,6 @@
     - thing: CSS
     - thing: JavaScript
     - thing: Github Pages
-
-# anhnguyen.page
-- name: Personal Website
-  url: https://anhnguyen.page/
-  code: https://github.com/anguyen0208/anhnguyen.page
-  description: Second iteration of my personal website built with <a href="https://www.gatsbyjs.org/" class="underline-link" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" class="underline-link" target="_blank">Netlify</a>.
-  used:
-    - thing: JavaScript
-    - thing: React
-    - thing: Gatsby
-    - thing: Netlify
 
 # JavaScript Calculator
 - name: JavaScript Calculator
