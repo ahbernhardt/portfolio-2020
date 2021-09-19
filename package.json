@@ -10,16 +10,19 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
-    "build": "gulp build"
+    "build": "gulp build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Anh Nguyen",
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",
     "browser-sync": "^2.26.12",
+    "gh-pages": "^3.2.3",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^7.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-eslint": "^6.0.0",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "6.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-uglify": "3.0.2",
