@@ -13,7 +13,7 @@
     "build": "gulp build",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Anh Nguyen",
+  "author": "Anh Bernhardt",
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",
     "browser-sync": "^2.26.12",
