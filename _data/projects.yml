@@ -10,8 +10,8 @@
 
 # anhnguyen.page
 - name: Personal Website
-  url: https://anhnguyen.page/
-  code: https://github.com/anguyen0208/anhnguyen.page
+  url: https://anhbernhardt.com/
+  code: https://github.com/anguyen0208/anhbernhardt.com
   description: Personal website using Gatsby framework, MongoDB Atlas for data, and Netlify.
   used:
     - thing: Gatsby
@@ -20,7 +20,7 @@
     - thing: Netlify
 
 # Portfolio Express
-- name: Porfolio V2
+- name: Porfolio Express
   url: https://anguyen0208-express.herokuapp.com/
   code: https://github.com/anguyen0208/portfolio-express
   description: Portfolio-v2 built with Express, Node, ejs, and deploy with Heroku.

@@ -2,12 +2,12 @@
 name: Anh Bernhardt
 title: Anh Bernhardt | Portfolio
 description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
-url: https://anhnguyen.page/
-baseurl: 'https://anhnguyen.page/'
+url: https://anguyen0208.github.io
+baseurl: ''
 email: anhbernhardt@gmail.com
-cover: https://anguyen0208.github.io/v2/img/og.png
-logo: https://anguyen0208.github.io/v2/img/logo/favicon-32x32.png
-resume: https://anguyen0208.github.io/v2/resume.pdf
+cover: https://anguyen0208.github.io/img/og.png
+logo: https://anguyen0208.github.io/img/logo/favicon-32x32.png
+resume: https://anguyen0208.github.io/resume.pdf
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/anhbernhardt
@@ -18,7 +18,7 @@ social:
   - title: instagram
     url: https://instagram.com/ah_nguyen0208
   - title: codepen
-    url: http://codepen.io/ah_nguyen0208
+    url: https://codepen.io/ah_nguyen0208
 
 
 # Build settings
@@ -31,7 +31,6 @@ exclude:
   - 'README.md'
   - 'node_modules'
   - 'build'
-  - 'dist'
   - 'gulpfile.js'
   - 'package.json'
 

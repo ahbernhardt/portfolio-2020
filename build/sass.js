@@ -4,7 +4,6 @@ const cleanCSS = require('gulp-clean-css');
 
 const scssPath = '_scss/*.scss';
 const destPath = '_site/css';
-const distPath = 'dist/css';
 
 module.exports = gulp => {
   gulp.task('sass', () => {
@@ -24,7 +23,6 @@ module.exports = gulp => {
       )
       .pipe(cleanCSS({ compatibility: 'ie8' }))
       .pipe(gulp.dest(destPath))
-      .pipe(gulp.dest(distPath))
       .pipe(gulp.dest('css'));
   });
 };

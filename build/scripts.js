@@ -3,7 +3,6 @@ const uglify = require('gulp-uglify');
 
 const jsPath = '_scripts/*.js';
 const destPath = '_site/js';
-const distPath = 'dist/js';
 
 module.exports = gulp => {
   gulp.task('scripts', () => {
@@ -17,7 +16,6 @@ module.exports = gulp => {
         )
         .pipe(eslint.format())
         .pipe(gulp.dest(destPath))
-        .pipe(gulp.dest(distPath))
         .pipe(gulp.dest('js'))
     );
   });
