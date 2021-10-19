@@ -1,14 +1,4 @@
-# Loan Calculation
-- name: Loan Calculation
-  url: https://anguyen0208.github.io/Loan-Calculator/
-  code: https://github.com/anguyen0208/Loan-Calculator
-  description: Calculate compound interest progressive Web App with React.
-  used:
-    - thing: ReactJS
-    - thing: SCSS
-    - thing: HTML
-
-# anhnguyen.page
+# anhbernhardt.com
 - name: Personal Website
   url: https://anhbernhardt.com/
   code: https://github.com/anguyen0208/anhbernhardt.com
@@ -18,6 +8,17 @@
     - thing: ReactJS
     - thing: MongoDB
     - thing: Netlify
+
+
+# Loan Calculation
+- name: Loan Calculation
+  url: https://anhnguyen.page/Loan-Calculator/
+  code: https://github.com/anguyen0208/Loan-Calculator
+  description: Calculate compound interest progressive Web App with React.
+  used:
+    - thing: ReactJS
+    - thing: SCSS
+    - thing: HTML
 
 # Portfolio Express
 - name: Porfolio Express
