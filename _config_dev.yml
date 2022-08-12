@@ -2,21 +2,21 @@
 name: Anh Bernhardt
 title: Anh Bernhardt | Portfolio
 description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
-url: https://anguyen0208.github.io
+url: https://ahbernhardt.github.io
 baseurl: ''
 email: anhbernhardt@gmail.com
-cover: https://anguyen0208.github.io/img/og.png
-logo: https://anguyen0208.github.io/img/logo/favicon-32x32.png
-resume: https://anguyen0208.github.io/resume.pdf
+cover: https://ahbernhardt.github.io/img/og.png
+logo: https://ahbernhardt.github.io/img/logo/favicon-32x32.png
+resume: https://ahbernhardt.github.io/resume.pdf
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/anhbernhardt
   - title: email
     url: mailto:anhbernhardt@gmail.com
   - title: github
-    url: https://github.com/anguyen0208
+    url: https://github.com/ahbernhardt
   - title: instagram
-    url: https://instagram.com/ah_nguyen0208
+    url: https://instagram.com/ah_bernhardt
   - title: codepen
     url: https://codepen.io/ah_nguyen0208
 

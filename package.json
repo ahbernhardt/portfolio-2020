@@ -1,12 +1,12 @@
 {
-  "name": "portdolio-v2",
+  "name": "portfolio-v2",
   "version": "1.0.0",
   "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anguyen0208/anguyen0208.github.io/"
+    "url": "https://github.com/ahbernhardt/ahbernhardt.github.io/"
   },
-  "homepage": "https://anguyen0208.github.io",
+  "homepage": "https://ahbernhardt.github.io/",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
@@ -15,14 +15,14 @@
   "author": "Anh Bernhardt",
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",
-    "browser-sync": "^2.26.12",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^7.0.0",
+    "browser-sync": "^2.27.10",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-eslint": "^6.0.0",
-    "gulp-imagemin": "6.0.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-uglify": "3.0.2",
-    "lodash": "^4.17.20"
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "lodash": "^4.17.21"
   }
 }
