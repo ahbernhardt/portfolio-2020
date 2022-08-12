@@ -13,7 +13,7 @@
 # Loan Calculation
 - name: Loan Calculation
   url: https://ahbernhardt.github.io/Loan-Calculator/
-  code: https://github.com/ahbernhardt/Loan-Calculator
+  code: https://github.com/ahbernhardt/Loan-Calculator/
   description: Calculate compound interest progressive Web App with React.
   used:
     - thing: ReactJS
