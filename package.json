@@ -1,28 +1,42 @@
 {
-  "name": "portfolio-v2",
+  "name": "portfolio-2020",
   "version": "1.0.0",
   "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahbernhardt/ahbernhardt.github.io/"
+    "url": "https://github.com/ahbernhardt/portfolio-2020"
   },
-  "homepage": "https://ahbernhardt.github.io/",
+  "homepage": "https://ahbernhardt.github.io/portfolio-2020/",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
-    "build": "gulp build"
+    "build": "gulp build --watch",
+    "deploy": "gulp deploy"
   },
   "author": "Anh Bernhardt",
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",
     "browser-sync": "^2.27.10",
-    "gulp": "^3.9.1",
+    "delete": "^1.1.0",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-eslint": "^6.0.0",
-    "gulp-imagemin": "^8.0.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^7.1.0",
+    "imagemin": "^8.0.1",
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
-    "lodash": "^4.17.21"
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mozjpeg": "^8.0.0",
+    "node-sass": "^7.0.1",
+    "optipng-bin": "^9.0.0",
+    "pngquant-bin": "^8.0.1",
+    "sass": "^1.54.4"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.10"
   }
 }
